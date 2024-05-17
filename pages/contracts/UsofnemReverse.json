@@ -1,0 +1,94 @@
+{
+    "abi": [
+      {
+        "type": "constructor",
+        "name": "",
+        "inputs": [
+          {
+            "type": "address",
+            "name": "_uon",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "records",
+        "inputs": [
+          {
+            "type": "address",
+            "name": "",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "type": "string",
+            "name": "",
+            "internalType": "string"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "resolve",
+        "inputs": [
+          {
+            "type": "address",
+            "name": "addr",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "type": "string",
+            "name": "",
+            "internalType": "string"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "type": "function",
+        "name": "sendViaENS",
+        "inputs": [
+          {
+            "type": "string",
+            "name": "ensName",
+            "internalType": "string"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "payable"
+      },
+      {
+        "type": "function",
+        "name": "setReverse",
+        "inputs": [
+          {
+            "type": "string",
+            "name": "name",
+            "internalType": "string"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "type": "function",
+        "name": "uon",
+        "inputs": [],
+        "outputs": [
+          {
+            "type": "address",
+            "name": "",
+            "internalType": "contract DomainX"
+          }
+        ],
+        "stateMutability": "view"
+      }
+    ]
+}
